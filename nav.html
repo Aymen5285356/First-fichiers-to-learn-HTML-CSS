@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu CSS</title>
+
+    <style>
+        /* ---- Partie CSS ---- */
+
+        body {
+            margin: 0 auto;               /* éviter les marges */
+            text-align: center;           /* centrer le contenu */
+            background-color: lightblue;  /* couleur d’arrière-plan */
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-image: url('banniere.jpg'); /* image de bannière */
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+        }
+
+        nav ul {
+            text-align: center;      /* centrer les éléments */
+            list-style: none;        /* supprimer les puces */
+            padding: 10px;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;   /* mettre les éléments côte à côte */
+            margin: 10px;
+            padding: 8px 15px;
+            background-color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        nav ul li:hover {
+            background-color: #0077cc;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ---- Partie HTML ---- -->
+
+    <header></header>
+
+    <nav>
+        <ul>
+            <li>Économie</li>
+            <li>Technologie</li>
+            <li>Culture</li>
+            <li>Sciences</li>
+            <li>Santé</li>
+            <li>Sports</li>
+            <li>Contacts</li>
+</ul>
+</nav>
+</body>
+</html>
